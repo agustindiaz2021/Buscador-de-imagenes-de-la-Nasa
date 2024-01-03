@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('fondo_nasa.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: justify;
+}
+
+/* Estilos para el contenido dentro del contenedor */
+.container h1 {
+  color: #0077cc;
+}
+
+.container p {
+  color: #333;
+}
+
+/* Estilos para centrar imágenes */
+.container img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Agregado para estilizar el botón */
+.container button {
+  background-color: #0077cc;
+  border-color: #0077cc;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container button:hover {
+  background-color: #005d99; /* Color más oscuro al pasar el ratón */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Puedes agregar más estilos según las necesidades de tu contenido */
+
+/* Estilos para el pie de página */
+.text-muted {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.float-end {
+  float: right;
+}
+
+
+.volver-arriba-container {
+  text-align: center;
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilos para el enlace "Volver arriba" */
+.nodeco {
+  color: #e20b0b;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.nodeco:hover {
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(236, 4, 4, 0.8); /* Brillo al pasar el ratón */
+}
